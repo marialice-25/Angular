@@ -1,0 +1,11 @@
+{
+    "tecnologias": [
+        {
+            "tecnologia": "Naves",
+            "descricao": "Viagem sem volta",
+            "valor": "muito alto",
+            "tempo de existencia": "30",
+            "id": 2
+        }
+    ]
+}
