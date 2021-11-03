@@ -1,20 +1,21 @@
+.container{
+    height: 71%;
+}
+
 .sidenav{
-    margin-left: 10px;
-    height: 70%;
-    color: rgb(255, 255, 255);
+    width: 200px;
+    background-color: #794cb4;
 }
 
-.material-icons{
-    border: none;
-    margin: 15px;
-    background-color: rgb(189, 134, 240);
+.sidenav a{
+    color: rgb(189, 143, 228);
 }
 
-span{
-    margin: 15px;
+.sidenav i{
+    padding-right: 10px;
 }
 
-p{
-    color: #5317a1;
-    padding: 10px;
+.content{
+    padding: 16px;
+    background-color: rgb(229, 202, 240);
 }

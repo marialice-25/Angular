@@ -1,0 +1,16 @@
+.home{
+    background-color: rgb(236, 228, 241);
+}
+
+.home .title{
+    font-size: 3rem;
+    font-weight: 230;
+    line-height: 1.5;   
+    color: rgb(86, 26, 114);
+}
+
+.subtitle{
+    color: rgb(86, 26, 114);
+    font-size: 1.2rem;
+    font-style: italic;
+}
