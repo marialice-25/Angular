@@ -14,6 +14,8 @@ import { HomeComponent } from './views/home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { AboutComponent } from './views/about/about.component';
 import { EletronicsComponent } from './views/eletronics/eletronics.component';
+import { EletronicsCreateComponent } from './components/eletronics/eletronics-create/eletronics-create.component';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { EletronicsComponent } from './views/eletronics/eletronics.component';
     NavComponent,
     HomeComponent,
     AboutComponent,
-    EletronicsComponent
+    EletronicsComponent,
+    EletronicsCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { EletronicsComponent } from './views/eletronics/eletronics.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

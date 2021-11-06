@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import  { AboutComponent } from './views/about/about.component';
 import  { EletronicsComponent } from './views/eletronics/eletronics.component';
+import  { EletronicsCreateComponent } from './components/eletronics/eletronics-create/eletronics-create.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: "eletronics",
     component: EletronicsComponent,
+  },
+  {
+    path: "eletronics/create",
+    component: EletronicsCreateComponent,
   },
 ];
 
