@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,7 +16,8 @@ import { MatCardModule } from '@angular/material/card';
 import { AboutComponent } from './views/about/about.component';
 import { EletronicsComponent } from './views/eletronics/eletronics.component';
 import { EletronicsCreateComponent } from './components/eletronics/eletronics-create/eletronics-create.component';
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
