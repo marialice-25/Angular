@@ -18,6 +18,13 @@ import { EletronicsComponent } from './views/eletronics/eletronics.component';
 import { EletronicsCreateComponent } from './components/eletronics/eletronics-create/eletronics-create.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { EletronicsReadComponent } from './components/eletronics/eletronics-read/eletronics-read.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -28,7 +35,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     HomeComponent,
     AboutComponent,
     EletronicsComponent,
-    EletronicsCreateComponent
+    EletronicsCreateComponent,
+    EletronicsReadComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +49,12 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatButtonModule,
     MatSnackBarModule,
     HttpClientModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

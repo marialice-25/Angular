@@ -5,3 +5,18 @@ p{
 button{
     margin: 10px;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+mat-card{
+    background-color: rgb(229, 214, 235);
+    color: #794cb4;
+}
+
+input{
+    color: #794cb4;
+}

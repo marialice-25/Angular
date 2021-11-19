@@ -1,7 +1,32 @@
-<button mat-raised-button (click)="createEletronics()" color="primary">
-    Salvar
-</button>
+<mat-card>
+    <mat-card-title>
+        Novo Eletrônico
+    </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Aparelho Eletrônico"
+            [(ngModel)] = "eletronic.tecnologia" name="tecnologia">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Descrição"
+            [(ngModel)] = "eletronic.descricao" name="descricao">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Valor"
+            [(ngModel)] = "eletronic.valor" name="valor">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Tempo de lançamento"
+            [(ngModel)] = "eletronic.tempo_existencia" name="tempo_existencia">
+        </mat-form-field>
+    </form>
 
-<button mat-raised-button (click)="cancel()" color="primary">
-    Cancelar
-</button>
+    <button mat-raised-button (click)="createEletronics()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+

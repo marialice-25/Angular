@@ -1,11 +1,39 @@
 {
-    "tecnologias": [
-        {
-            "tecnologia": "Naves",
-            "descricao": "Viagem sem volta",
-            "valor": "muito alto",
-            "tempo de existencia": "30",
-            "id": 2
-        }
-    ]
+  "tecnologias": [
+    {
+      "tecnologia": "Naves",
+      "descricao": "Viagem sem volta",
+      "valor": "muito alto",
+      "tempo_existencia": "30",
+      "id": 2
+    },
+    {
+      "tecnologia": "Robos",
+      "descricao": "Industrias",
+      "valor": "mediano",
+      "tempo_existencia": 50,
+      "id": 3
+    },
+    {
+      "tecnologia": "fvd",
+      "descricao": "dsf",
+      "valor": "vdsxvf",
+      "tempo_existencia": "6",
+      "id": 4
+    },
+    {
+      "tecnologia": "Motorola",
+      "descricao": "Sétima geração",
+      "valor": "4500,00",
+      "tempo_existencia": "2",
+      "id": 5
+    },
+    {
+      "tecnologia": "redmi",
+      "descricao": "versao nova",
+      "valor": "2000",
+      "tempo_existencia": "1",
+      "id": 6
+    }
+  ]
 }

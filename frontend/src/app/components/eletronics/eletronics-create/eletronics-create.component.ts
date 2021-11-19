@@ -12,10 +12,10 @@ import { Eletronic } from "../eletronics.model";
 export class EletronicsCreateComponent implements OnInit {
 
   eletronic: Eletronic = {
-    tecnologia: "Robos",
-    descricao: "Industrias",
-    valor: "mediano",
-    tempo_existencia: 50,
+    tecnologia: "",
+    descricao: "",
+    valor: "",
+    tempo_existencia: 0,
   }
 
   constructor(private eletronicsService: EletronicsService, private router: Router) { }

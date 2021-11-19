@@ -23,6 +23,10 @@ export class EletronicsService {
   }
 
   create(eletronic: Eletronic): Observable<Eletronic> {
-    return this.http.post<Eletronic>(this.baseUrl, eletronic)
+    return this.http.post<Eletronic>(this.baseUrl, eletronic);
+  }
+
+  read(): Observable<Eletronic[]> {
+    return this.http.get<Eletronic[]>(this.baseUrl)
   }
 }
