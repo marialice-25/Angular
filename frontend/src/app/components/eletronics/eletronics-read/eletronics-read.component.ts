@@ -10,12 +10,11 @@ import { Eletronic } from "../eletronics.model";
 export class EletronicsReadComponent implements OnInit {
 
    eletronics:Eletronic[];
-   displayedColumns = ["id", "tecnologia", "descricao", "valor", "tempo_existencia"]
+   displayedColumns = ["id", "tecnologia", "descricao", "valor", "tempo_existencia", "action"]
 
   constructor(private eletronicService: EletronicsService) { 
     this.eletronics = []
   }
-
 
   ngOnInit(): void {
    this.eletronicService.read().subscribe((eletronics) => {

@@ -25,6 +25,8 @@ import { EletronicsReadComponent } from './components/eletronics/eletronics-read
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { EletronicsDeleteComponent } from './components/eletronics/eletronics-delete/eletronics-delete.component';
+import { EletronicsUpdateComponent } from './components/eletronics/eletronics-update/eletronics-update.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { MatSortModule } from '@angular/material/sort';
     AboutComponent,
     EletronicsComponent,
     EletronicsCreateComponent,
-    EletronicsReadComponent
+    EletronicsReadComponent,
+    EletronicsDeleteComponent,
+    EletronicsUpdateComponent
   ],
   imports: [
     BrowserModule,

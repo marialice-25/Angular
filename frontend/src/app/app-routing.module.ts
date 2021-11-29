@@ -5,6 +5,8 @@ import { HomeComponent } from './views/home/home.component';
 import  { AboutComponent } from './views/about/about.component';
 import  { EletronicsComponent } from './views/eletronics/eletronics.component';
 import  { EletronicsCreateComponent } from './components/eletronics/eletronics-create/eletronics-create.component';
+import  { EletronicsUpdateComponent } from './components/eletronics/eletronics-update/eletronics-update.component';
+import  { EletronicsDeleteComponent } from './components/eletronics/eletronics-delete/eletronics-delete.component';
 
 const routes: Routes = [
   {
@@ -22,6 +24,14 @@ const routes: Routes = [
   {
     path: "eletronics/create",
     component: EletronicsCreateComponent,
+  },
+  {
+    path: "eletronics/update/:id",
+    component: EletronicsUpdateComponent,
+  },
+  {
+    path: "eletronics/delete/:id",
+    component: EletronicsDeleteComponent,
   },
 ];
 

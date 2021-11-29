@@ -3,7 +3,7 @@
     {
       "tecnologia": "Naves",
       "descricao": "Viagem sem volta",
-      "valor": "muito alto",
+      "valor": "extremamente alto",
       "tempo_existencia": "30",
       "id": 2
     },
@@ -13,13 +13,6 @@
       "valor": "mediano",
       "tempo_existencia": 50,
       "id": 3
-    },
-    {
-      "tecnologia": "fvd",
-      "descricao": "dsf",
-      "valor": "vdsxvf",
-      "tempo_existencia": "6",
-      "id": 4
     },
     {
       "tecnologia": "Motorola",

@@ -27,6 +27,21 @@ export class EletronicsService {
   }
 
   read(): Observable<Eletronic[]> {
-    return this.http.get<Eletronic[]>(this.baseUrl)
+    return this.http.get<Eletronic[]>(this.baseUrl);
+  }
+
+  readById(id: number) :Observable<Eletronic> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Eletronic>(url);
+  }
+
+  update(eletronic: Eletronic): Observable<Eletronic> {
+    const url = `${this.baseUrl}/${eletronic.id}`;
+    return this.http.put<Eletronic>(url, eletronic);
+  }
+
+  delete(id:number): Observable<Eletronic> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Eletronic>(url);
   }
 }

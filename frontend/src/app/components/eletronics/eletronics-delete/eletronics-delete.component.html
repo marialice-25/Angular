@@ -1,0 +1,29 @@
+<mat-card>
+    <mat-card-title>Excluir eletrônico</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Aparelho Eletrônico"
+            [value] = "eletronic.tecnologia" name="tecnologia" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Descrição"
+            [value] = "eletronic.descricao" name="descricao" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Valor"
+            [value] = "eletronic.valor" name="valor" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Tempo de lançamento"
+            [value] = "eletronic.tempo_existencia" name="tempo_existencia" disabled>
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="deleteEletronics()" color="primary">
+        Excluir
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
